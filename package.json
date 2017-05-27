@@ -1,0 +1,43 @@
+{
+  "name": "learn-react-junior",
+  "version": "1.0.0",
+  "description": "如何查看所有的历史版本\r https://facebook.github.io/react/blog/all.html\r https://cdnjs.com/libraries/react/",
+  "main": "root.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szg2008/learn-react-junior.git"
+  },
+  "author": "suzg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szg2008/learn-react-junior/issues"
+  },
+  "homepage": "https://github.com/szg2008/learn-react-junior#readme",
+  "dependencies": {
+    "antd": "^2.10.2",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "css-loader": "^0.28.1",
+    "fetch": "^1.1.0",
+    "fs": "0.0.1-security",
+    "node": "0.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-mixin": "^2.0.2",
+    "react-responsive": "^1.3.0",
+    "react-router": "^2.8.1",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
