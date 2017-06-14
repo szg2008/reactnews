@@ -25,7 +25,8 @@ class CommonComments extends React.Component{
     };
     componentDidMount(){
         var myFetchOptions = {
-            method:'GET'
+            method:'GET',
+            mode:'cors'
         };
         fetch('http://newsapi.gugujiankong.com/Handler.ashx?action=getcomments&uniquekey='+this.props.uniquekey,myFetchOptions)
         .then(response=>response.json())
@@ -38,7 +39,8 @@ class CommonComments extends React.Component{
     handleSubmit(e){
         e.preventDefault();
         var myFetchOptions = {
-            method:'GET'
+            method:'GET',
+            mode:'cors'
         };
         var formdata = this.props.form.getFieldsValue();
         fetch('http://newsapi.gugujiankong.com/Handler.ashx?action=comment&userid='+localStorage.userid+'&uniquekey='+this.props.uniquekey+'&commnet='+formdata.remark,myFetchOptions)
@@ -51,7 +53,8 @@ class CommonComments extends React.Component{
     };
     addUserCollection(){
         var myFetchOptions = {
-            method:'GET'
+            method:'GET',
+            mode:'cors'
         };
         fetch('http://newsapi.gugujiankong.com/Handler.ashx?action=uc&userid='+localStorage.userid+'&uniquekey='+this.props.uniquekey,myFetchOptions)
         .then(response=>response.json())

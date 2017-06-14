@@ -56,8 +56,9 @@ class MobileHeader extends React.Component{
         //向API提交数据
         e.preventDefault();
         var myFetchOptions = {
-            method:'GET'
-        }
+            method:'GET',
+            mode:'cors'
+        };
         var formData = this.props.form.getFieldsValue();
 
         console.log(formData);

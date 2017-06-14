@@ -13,7 +13,8 @@ export default class PCNewsDetails extends React.Component{
     };
     componentDidMount(){
         var myFetchOptions = {
-            method:'GET'
+            method:'GET',
+            mode:'cors'
         };
         fetch('http://newsapi.gugujiankong.com/Handler.ashx?action=getnewsitem&uniquekey='+this.props.params.uniquekey,myFetchOptions)
         .then(response=>response.json())
