@@ -82,7 +82,7 @@ export default class PCUserCenter extends React.Component{
             </Card>
         })
         :
-        '您还没有收藏任何新闻，快去收藏吧~~';
+        '您还没有收藏任何新闻，快去收藏吧~~'; 
         return (
             <div>
                 <PCHeader />
