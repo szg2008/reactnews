@@ -79,7 +79,7 @@ export default class PCUserCenter extends React.Component{
         usercollection.map((uc,index)=>{
             <Card key={index} title={uc.uniquekey} extra={<a target="blank" href={`/#/details/${uc.uniquekey}`}>查看</a>}>
                 <p>{uc.Title}</p>
-            </Card>
+            </Card> 
         })
         :
         '您还没有收藏任何新闻，快去收藏吧~~';
